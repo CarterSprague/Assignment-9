@@ -17,7 +17,7 @@ async function fetchGifs() {
 
     for (const imageUrl of images) {
       gifContainer.innerHTML += `
-        <img src="${imageUrl}" class="col-3 mb-3">
+        <img src="${imageUrl}" alt= "A cat gif" class="col-3 mb-3">
       `;
     }
   } catch (error) {
